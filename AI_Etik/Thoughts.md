@@ -56,6 +56,7 @@ Genereras automatiskt i slutet
   - Skriv datum
   - Hämtad datum
   - Författare
+    https://internetkunskap.se/artiklar/grundkurs-i-ai/vilka-risker-finns-det-med-ai/
 
 ### (Bilagor)
 

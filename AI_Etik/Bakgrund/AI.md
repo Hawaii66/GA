@@ -21,6 +21,12 @@ I denna litteratur studie kommer främst olika mindre snäva ai modeller att jä
 Heartbeat [^2] skriver att en förtränad modell har tränats på större och mer generella dataset. Då de tränas på stora mängder data i många olika områden kan de göra komplingar mellan domäner och hitta mönster i datan. Motsatsen mot förtränade modeller är icke förtränade modeller. Dessa modeller tränas endast för att klara av en specifik uppgift. Modellernas domänområden är därmed mindre och de kan inte skapa kopplingar och mönster på sammas sätt. Däremot har de möjligheten att fokussera allt på ett specifikt område och kan därmed bli mindre till storlek och snabbare att köra.
 Fördelar med förtränade modeller är då att de kan hitta mönster mellan domäner och användas i flera applikationer utan att om tränas för en ny specifik uppgift. Överanpassning kan dock leda till bias och problem med att träna modellen på tillräckligt stora mängder data. Modellerna tenderar också att bli stora och ta längre tid att köra, inga specifika nummer har gets ut men man estimerar GPT-3.5 att ta upp runt 500GB [^3]. Icke förtränade modeller är mer skräddarsydda och kräver därmed inte lika mycket träningsdata och resurser.
 
+## ChatGPT
+
+GPT-3.5 är en modell tränad av OpenAI [^4] främst använd i ChatGPT. GPT står för general pretrained transformer vilket betyder att det är en generel snäv modell som är förtränad på stora mängder data. Genom chatten kan man ställa frågor som AI:n svarar på utifrån all data GPT analyserat. GPT-3.5 är tränad på 175 miljarder parametrar. Antalet parametrar i en modell är den avgörande faktorn för hur kapabell modellen är. Fler parametrar leder till fler punkter där modellen kan göra ett beslut och påverka utdatan.
+
 [^1]: https://internetkunskap.se/artiklar/ordlista/artificiell-intelligens/
 [^2]: https://heartbeat.comet.ml/pre-trained-machine-learning-models-vs-models-trained-from-scratch-63e079ed648f
 [^3]: https://www.reddit.com/r/ChatGPT/comments/zhzjpq/how_big_is_the_model/
+[^4]: https://openai.com/chatgpt
+[^5]: https://en.wikipedia.org/wiki/GPT-3

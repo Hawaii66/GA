@@ -5,13 +5,13 @@ import { DoodleVectors } from "./src/DoodleVector";
 const run = async () => {
   const processSize = 200;
 
-  const doodles = await LoadDataset("pizza", processSize);
+  const doodles = await LoadDataset("bed", processSize);
 
   console.log("Doodles generated and scaled");
   const vectors = await DoodleVectors(doodles, true);
   console.log("Vectors loaded");
 
-  await RenderMultipleVectors(vectors);
+  //await RenderMultipleVectors(vectors);
 };
 
 run();

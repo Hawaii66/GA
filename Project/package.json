@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon --exec ts-node index.ts",
-    "load": "ts-node load.ts"
+    "load": "ts-node load.ts",
+    "network": "ts-node network.ts"
   },
   "keywords": [],
   "author": "",

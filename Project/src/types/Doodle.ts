@@ -10,3 +10,9 @@ export type Vector = {
   vector: number[];
   word: string;
 };
+
+export type NetworkVector = {
+  vector: number[];
+  label: number;
+  expectedOutputs: number[];
+};

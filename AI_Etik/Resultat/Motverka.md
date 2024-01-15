@@ -1,6 +1,6 @@
 # Frågor att svara på
 
-- Svar inte disskutera
+- Svar, inte disskutera
 
 ## Finns de bias idag
 

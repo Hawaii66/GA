@@ -6,6 +6,9 @@ export async function LoadDataset(name: string, size: number) {
     `data/full_simplified_${name}.ndjson`,
     "utf-8"
   );
+
+  console.log("Loading data from file, total: ", data.length, ", size: ", size);
+
   const parsed: Doodle[] = data
     .split("\n")
     .filter((i) => i !== "")
